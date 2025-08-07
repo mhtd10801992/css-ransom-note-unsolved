@@ -11,7 +11,7 @@
 body,
 html {
   width: 100%;
-  min-height: 100%;
+  min-height: 80%;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   align-items: center;
   color: white;
   font-size: 20px;
-  background-color: #282a56;
+  background-color: #3a0b0b;
 }
 
 .container {
@@ -82,216 +82,609 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
-.didILetter {
+.didILetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
-.didDTwoLetter {
+.didDTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
-.theHLetter {
+.theHLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.theELetter {
+.theELetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(30, 29, 28);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+.frontendFLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendRLetter {
+.frontendRLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendOLetter {
+.frontendOLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendNLetter {
+.frontendNLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendTLetter {
+.frontendTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendELetter {
+.frontendELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendNTwoLetter {
+.frontendNTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
-.frontendDLetter {
+.frontendDLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
+.developerDLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerELetter {
+.developerELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerVLetter {
+.developerVLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerETwoLetter {
+.developerETwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerLLetter {
+.developerLLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerOLetter {
+.developerOLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.developerPLetter {
+.developerPLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 .developerEThreeLetter {
-}
-.developerRLetter {
+}font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
+.developerRLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* TAKE word */
 
-.takeTLetter {
+.takeTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.takeALetter {
+.takeALetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.takeKLetter {
+.takeKLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.takeELetter {
+.takeELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* UP word */
 
-.upULetter {
+.upULetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.upPLetter {
+.upPLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+}font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
+.gardeningALetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningALetter {
+.gardeningRLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningRLetter {
-}
-.gardeningDLetter {
+.gardeningDLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 .gardeningELetter {
+}font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
+.gardeningNLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningNLetter {
+.gardeningILetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningILetter {
+.gardeningNTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+.gardeningGTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* BECAUSE word */
 
-.becauseBLetter {
+.becauseBLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseELetter {
+.becauseELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseCLetter {
+.becauseCLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseALetter {
+.becauseALetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseULetter {
+.becauseULetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseSLetter {
+.becauseSLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
-.becauseETwoLetter {
+.becauseETwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* THEY word */
 
-.theyTLetter {
+.theyTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.theyHLetter {
+.theyHLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.theyELetter {
+.theyELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.theyYLetter {
+.theyYLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* WANTED word */
 
-.wantedWLetter {
+.wantedWLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.wantedALetter {
+.wantedALetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.wantedNLetter {
+.wantedNLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.wantedTLetter {
+.wantedTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.wantedELetter {
+.wantedELetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(235, 93, 42);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.wantedDLetter {
+.wantedDLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(35, 60, 128);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* TO word */
 
-.toTLetter {
-}
-.toOLetter {
+.toTLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(20, 204, 134);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+.toOLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(220, 243, 15);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* IMPROVE word */
 
-.improveILetter {
+.improveILetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(177, 233, 24);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.improveMLetter {
+.improveMLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(66, 177, 38);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 .improvePLetter {
+}font-size: 60px;
+  font-weight: normal;
+  color: rgb(26, 127, 221);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+.improveRLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(241, 192, 174);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+.improveOLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(223, 8, 8);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.improveRLetter {
+.improveVLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(30, 146, 46);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
+.improveELetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* THEIR word */
 
-.theirTLetter {
+.theirTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.theirHLetter {
+.theirHLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 .theirELetter {
+}font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
+.theirILetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(42, 110, 26);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
 }
-.theirILetter {
-}
-.theirRLetter {
+.theirRLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(16, 19, 66);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
 }
 
 /* ROOT word */
 
-.rootRLetter {
+.rootRLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(218, 91, 44);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
 }
-.rootOLetter {
+.rootOLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(248, 230, 223);
+  text-decoration: none;
+  text-transform: uppercase;
+font-family: "Playwrite HU", cursive;
 }
-.rootOTwoLetter {
+.rootOTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(53, 16, 3);
+  text-decoration: none;
+  text-transform: uppercase;
+ font-family: "Playwrite HU", cursive;
 }
-.rootTLetter {
+.rootTLetter {font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
 }
 
 /* SKILLS word */
 
-.skillsSLetter {
+.skillsSLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(156, 113, 97);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playwrite HU", cursive;
 }
-.skillsKLetter {
+.skillsKLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(199, 158, 23);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.skillsILetter {
+.skillsILetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(72, 34, 133);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.skillsLLetter {
+.skillsLLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(98, 107, 233);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
-.skillsLTwoLetter {
+.skillsLTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(98, 191, 245);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: font-family: "Fjalla One", sans-serif;
 }
-.skillsSTwoLetter {
+.skillsSTwoLetter {font-size: 60px;
+  font-weight: normal;
+  color: rgb(130, 176, 236);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
 
 /* SYMBOLS */
