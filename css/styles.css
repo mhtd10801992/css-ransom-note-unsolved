@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  zoom:130%;
 }
 
 body,
@@ -63,9 +64,9 @@ body {
 }
 
 .whyHLetter {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: rgb(70, 11, 197);
   text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
@@ -83,45 +84,53 @@ body {
 /* DID word */
 
 .didDLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+  color: rgb(255, 0, 0);
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
 }
 
-.didILetter {font-size: 60px;
+
+.didILetter {
+font-size: 60px;
+  color: #00ffcc;
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+
 }
 
-.didDTwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+.didDTwoLetter {
+font-size: 70px;
+  color: hsl(200, 70%, 50%);
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 
 /* THE word */
 
-.theTLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.theTLetter {
+  font-size: 65px;
+  color: #ffd700;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: capitalize;
+  font-family: 'Orbitron', sans-serif;
 }
 
-.theHLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+.theHLetter {
+font-size: 50px;
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+ 
+
 }
 
 .theELetter {font-size: 60px;
@@ -134,12 +143,14 @@ body {
 
 /* FRONT-END word */
 
-.frontendFLetter {font-size: 60px;
+.frontendFLetter {
+font-size: 50px;
+  color: rgb(0, 128, 255); /* RGB */
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
+
 }
 
 .frontendRLetter {font-size: 60px;
@@ -151,19 +162,21 @@ body {
 }
 
 .frontendOLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Piazza';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
 }
 
-.frontendNLetter {font-size: 60px;
+.frontendNLetter {
+font-size: 30px;
+  color: rgb(0, 128, 255); /* RGB */
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
+
 }
 
 .frontendTLetter {font-size: 60px;
@@ -174,12 +187,14 @@ body {
   font-family: "Fjalla One", sans-serif;
 }
 
-.frontendELetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.frontendELetter {
+  font-size: 40px;
+  color: #ff5733; /* HEX */
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .frontendNTwoLetter {font-size: 60px;
@@ -221,47 +236,59 @@ body {
   text-transform: uppercase;
   font-family: "Fjalla One", sans-serif;
 }
-.developerETwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.developerETwoLetter {
+font-size: 68px;
+  color: #ff1493;
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Righteous', cursive;
+
 }
-.developerLLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+.developerLLetter {
+font-size: 28px;
+  color: rgb(34, 139, 34);
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Zilla Slab', serif;
+
 }
-.developerOLetter {font-size: 60px;
+.developerOLetter {
+font-size: 42px;
+  color: hsl(260, 70%, 60%);
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Unica One', cursive;
+
 }
-.developerPLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.developerPLetter {
+font-size: 30px;
+  color: #00ced1;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  text-transform: capitalize;
+  font-family: 'Orbitron', sans-serif;
+
 }
 .developerEThreeLetter {
-}font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
-.developerRLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+
+font-size: 38px;
+  color: rgb(255, 165, 0);
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Playfair Display', serif;}
+
+.developerRLetter {
+font-size: 26px;
+  color: hsl(180, 100%, 35%);
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 
 /* TAKE word */
@@ -273,54 +300,64 @@ body {
   text-transform: uppercase;
   font-family: 'Raleway Dots', sans-serif;
 }
-.takeALetter {font-size: 60px;
+.takeALetter {
+font-size: 34px;
+  color: #8a2be2;
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Zilla Slab', serif;
+
 }
-.takeKLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.takeKLetter {
+font-size: 40px;
+  color: rgb(255, 20, 147);
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: capitalize;
+  font-family: 'Unica One', cursive;
 }
-.takeELetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+.takeELetter {
+  font-size: 32px;
+  color: hsl(300, 80%, 50%);
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Righteous', cursive;
+
 }
 
 /* UP word */
 
-.upULetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+.upULetter {
+font-size: 44px;
+  color: #ff4500;
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Zilla Slab', serif;
+
 }
-.upPLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.upPLetter {
+  font-size: 48px;
+  color: #ff1493; /* HEX */
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Anton', sans-serif;
+
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
-}font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-size: 36px;
+  color: rgb(34, 139, 34); /* RGB */
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Quicksand', sans-serif;
+}
 .gardeningALetter {font-size: 60px;
   font-weight: normal;
   color: coral;
@@ -328,123 +365,152 @@ body {
   text-transform: uppercase;
   font-family: 'Raleway Dots', sans-serif;
 }
-.gardeningRLetter {font-size: 60px;
+.gardeningRLetter {
+font-size: 42px;
+  color: hsl(210, 100%, 50%); /* HSL */
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Righteous', cursive;
+
 }
-.gardeningDLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.gardeningDLetter {
+font-size: 50px;
+  color: #ff8c00;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: lowercase;
+  font-family: 'Zilla Slab', serif;
+
 }
 .gardeningELetter {
-}font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  font-size: 38px;
+  color: rgb(0, 191, 255);
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
-.gardeningNLetter {font-size: 60px;
+  font-family: 'Kalam', cursive;}
+
+.gardeningNLetter {
+
+  font-size: 42px;
+  color: hsl(212, 25%, 86%); /* HSL */
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Righteous', cursive;
+
 }
-.gardeningILetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.gardeningILetter {
+  font-size: 60px;
+  color: #ff8c00;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: capitalize;
+  font-family: 'Zilla Slab', serif;
+
 }
 .gardeningNTwoLetter {font-size: 60px;
   font-weight: normal;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Kalam', sans-serif;
 }
-.gardeningGTwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.gardeningGTwoLetter {
+font-size: 48px;
+  color: rgb(0, 191, 255);
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Kalam', cursive;
 }
 
 /* BECAUSE word */
 
-.becauseBLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+.becauseBLetter {
+font-size: 54px;
+  color: hsl(330, 70%, 60%);
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Bebas Neue', sans-serif;
+
 }
-.becauseELetter {font-size: 60px;
+.becauseELetter {
+font-size: 24px;
+  color: rgb(60, 179, 113);
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+
 }
-.becauseCLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.becauseCLetter {
+font-size: 28px;
+  color: hsl(240, 100%, 50%);
+  font-weight: 400;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Raleway', sans-serif;
+
 }
-.becauseALetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.becauseALetter {
+  font-size: 42px;
+  color: #8e44ad;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  text-transform: lowercase;
+  font-family: 'Unica One', cursive;
+
 }
-.becauseULetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.becauseULetter {
+font-size: 66px;
+  color: rgb(255, 165, 0);
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Fugaz One', cursive;
+
 }
-.becauseSLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.becauseSLetter {
+font-size: 44px;
+  color: #3498db;
+  font-weight: 400;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Orbitron', sans-serif
+
 }
-.becauseETwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
+.becauseETwoLetter {
+font-size: 48px;
+  color: rgb(255, 20, 147);
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 /* THEY word */
 
-.theyTLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
+.theyTLetter {
+font-size: 52px;
+  color: hsl(0, 100%, 50%);
+  font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Raleway', sans-serif;
+
 }
-.theyHLetter {font-size: 60px;
+.theyHLetter {
+font-size: 56px;
+  color: #2ecc71;
   font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Unica One', cursive;
+
 }
 .theyELetter {font-size: 60px;
   font-weight: normal;
@@ -488,7 +554,7 @@ body {
   font-weight: normal;
   color: coral;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Fjalla One", sans-serif;
 }
 .wantedELetter {font-size: 60px;
@@ -513,44 +579,49 @@ body {
   color: rgb(20, 204, 134);
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Fjalla One", sans-serif;}
+
 .toOLetter {font-size: 60px;
   font-weight: normal;
   color: rgb(220, 243, 15);
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Fjalla One", sans-serif;
 }
 
 /* IMPROVE word */
 
-.improveILetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(177, 233, 24);
-  text-decoration: none;
+.improveILetter {
+  font-size: 82px;
+  color: #1d0211;
+  font-weight: 700;
+  text-decoration: overline;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Fugaz One', cursive;
+
 }
-.improveMLetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(66, 177, 38);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+.improveMLetter {font-size: 82px;
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
 }
 .improvePLetter {
-}font-size: 60px;
+font-size: 60px;
   font-weight: normal;
   color: rgb(26, 127, 221);
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Fjalla One", sans-serif;}
+
 .improveRLetter {font-size: 60px;
   font-weight: normal;
-  color: rgb(241, 192, 174);
+  color: rgb(203, 87, 45);
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Fjalla One", sans-serif;}
+
 .improveOLetter {font-size: 60px;
   font-weight: normal;
   color: rgb(223, 8, 8);
@@ -562,7 +633,7 @@ body {
   font-weight: normal;
   color: rgb(30, 146, 46);
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Fjalla One", sans-serif;
 }
 .improveELetter {font-size: 60px;
@@ -590,25 +661,29 @@ body {
   font-family: "Fjalla One", sans-serif;
 }
 .theirELetter {
-}font-size: 60px;
+font-size: 60px;
   font-weight: normal;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Playwrite HU", cursive;
+  font-family: "Playwrite HU", cursive;}
+
 .theirILetter {font-size: 60px;
   font-weight: normal;
   color: rgb(42, 110, 26);
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: "Playwrite HU", cursive;
 }
-.theirRLetter {font-size: 60px;
+
+.theirRLetter {
+font-size: 56px;
+  color: #131414;
   font-weight: normal;
-  color: rgb(16, 19, 66);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Playwrite HU", cursive;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Orbitron', sans-serif;
+
 }
 
 /* ROOT word */
@@ -620,26 +695,27 @@ body {
   text-transform: uppercase;
   font-family: "Playwrite HU", cursive;
 }
-.rootOLetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(248, 230, 223);
-  text-decoration: none;
-  text-transform: uppercase;
-font-family: "Playwrite HU", cursive;
+.rootOLetter { 
+  font-size: 90px;
+  font-family: 'Ceviche One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 .rootOTwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(53, 16, 3);
-  text-decoration: none;
-  text-transform: uppercase;
- font-family: "Playwrite HU", cursive;
+  font-family: 'Ceviche One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
-.rootTLetter {font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Playwrite HU", cursive;
+
+.rootTLetter {
+  font-size: 84px;
+  font-family: 'Ceviche One';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+
 }
 
 /* SKILLS word */
@@ -651,19 +727,20 @@ font-family: "Playwrite HU", cursive;
   text-transform: uppercase;
   font-family: "Playwrite HU", cursive;
 }
-.skillsKLetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(199, 158, 23);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+.skillsKLetter {
+font-size: 40px;
+  color: hsl(45, 100%, 50%);
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: 'Kalam', cursive;
+
 }
 .skillsILetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(72, 34, 133);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+ font-family: 'Raleway Dots';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 .skillsLLetter {font-size: 60px;
   font-weight: normal;
@@ -680,11 +757,10 @@ font-family: "Playwrite HU", cursive;
   font-family: font-family: "Fjalla One", sans-serif;
 }
 .skillsSTwoLetter {font-size: 60px;
-  font-weight: normal;
-  color: rgb(130, 176, 236);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Raleway Dots';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; 
 }
 
 /* SYMBOLS */
@@ -692,6 +768,19 @@ font-family: "Playwrite HU", cursive;
 .hyphen {
 }
 .exclamation-mark {
+font-size: 60px;
+  color: hsl(45, 100%, 50%);
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: capitalize;
+  
+
 }
 .question-mark {
+  font-size: 60px;
+  font-weight: normal;
+  color: rgb(98, 107, 233);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
 }
