@@ -765,7 +765,11 @@ font-size: 40px;
 
 /* SYMBOLS */
 
-.hyphen {
+.hyphen {.hyphen {font-size: 60px;
+  color: hsl(45, 100%, 50%);
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: capitalize;
 }
 .exclamation-mark {
 font-size: 60px;
